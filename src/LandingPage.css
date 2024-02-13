@@ -86,6 +86,27 @@ body {
   font-size: 1.5em;
 }
 
+.icon-left {
+  margin-right: 5px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .station-circle {
@@ -109,26 +130,11 @@ body {
   .station-names {
     font-size: 1em;
   }
-}
 
-.icon-left {
-  margin-right: 5px;
-}
+  .logo {
+    max-width: 80px; /* Make the logo smaller on mobile devices */
+  }
 
-footer {
-  width: 100%;
-  background-color: #f0f0f0;
-  color: #333;
-  padding: 20px 0;
-}
-
-.footer-link {
-  color: #333;
-  text-decoration: none;
-}
-
-.footer-link:hover {
-  text-decoration: underline;
 }
 
 
@@ -138,4 +144,9 @@ footer {
     width: 60px; /* Even smaller circles for very small screens */
     height: 60px;
   }
+
+  .logo {
+    max-width: 60px; /* Make the logo even smaller for very small screens */
+  }
+
 }
