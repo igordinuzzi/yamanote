@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+html, body, #root, .page-container {
+  min-height: 100%;
+  margin: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+body {
+  background-color: #9acd32;
+  color: #333333;
+  font-size: 1em;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.logo {
+  max-width: 100px; /* Adjust based on your logo size */
+  height: auto;
+  display: block;
+  margin-left: auto; /* Center logo */
+  margin-right: auto;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 0; /* Align with the first column */
+  border-left: 10px dotted #f0f0f0;
+  top: 0;
+  bottom: 0; /* Ensure it spans the entire height of the container */
+  z-index: 1; /* Ensure it's visible but not obstructing clicks */
+}
+
+.stations-container {
+  position: relative;
+  width: 100%;
+}
+
+.station-row {
+  text-align: left;
+  font-weight: bold;
+}
+
+.station-row .col:nth-child(2) {
+  padding-right: 0; /* Reduces space on the right */
+  padding-left: 0; /* Reduces space on the left, closer to the line */
+}
+
+.station-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for transform and background-color */
+}
+
+.station-circle:hover {
+  transform: scale(1.1); /* Slightly enlarge the circle */
+  background-color: #8C9B32; /* Change color to indicate hover state */
+  color: #f0f0f0;
+}
+
+
+.circle-text {
+  font-size: 1em;
+}
+
+.station-row .col:nth-child(3) {
+  padding-left: 0; /* Bring the text closer to the station circle */
+}
+
+.station-names {
+  font-size: 1.5em;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .station-circle {
+    width: 80px; /* Smaller circles on smaller screens */
+    height: 80px;
+  }
+
+
+  .station-row .col {
+    text-align: center; /* Center-align text for better readability */
+    padding-right: 15px; /* Add some padding back for small screens */
+    padding-left: 15px;
+  }
+
+  /* Adjust the positioning of station circles and text for better mobile layout */
+  .station-row .col:nth-child(2), .station-row .col:nth-child(3) {
+    padding-left: 15px; /* Adjust padding to maintain consistency */
+    padding-right: 15px;
+  }
+
+  .station-names {
+    font-size: 1em;
+  }
+}
+
+.icon-left {
+  margin-right: 5px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 480px) {
+  /* Further adjustments for very small devices */
+  .station-circle {
+    width: 60px; /* Even smaller circles for very small screens */
+    height: 60px;
+  }
+}
