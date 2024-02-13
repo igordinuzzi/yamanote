@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Yamanote Melodies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Mockup](/doc/mockup/mockup.png)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Yamanote Melodies is a React-based web application designed to take users on an auditory journey through Tokyo's Yamanote Line. This interactive experience allows users to explore the various stations on the Yamanote Line and listen to unique melodies or announcements associated with each station. The project leverages React Bootstrap for a responsive layout and FontAwesome for intuitive icons, creating a user-friendly and engaging interface.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Yamanote Melodies offers several key features that enhance the user experience:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive Station Map:** A visually appealing map displaying the stations on the Yamanote Line. Users can click on stations to learn more about them.
+![Interactive](/doc/features/01.jpg)
 
-### `npm test`
+- **Audio Clips:** Each station features an associated audio clip, such as the station's unique jingle, ambient sounds, or platform announcements. These clips offer users an immersive auditory experience of the station's environment.
+![Audio](/doc/features/02_01.jpg)
+![Audio](/doc/features/02_02.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Responsive Design:** Built with React Bootstrap, the application is fully responsive and provides an optimal viewing experience across a wide range of devices, from desktops to mobile phones.
+![Responsive](/doc/features/03.jpg)
 
-### `npm run build`
+- **FontAwesome Icons:** The use of FontAwesome icons enhances the interface, making it more intuitive and visually engaging. Icons indicate play and stop controls for audio clips, contributing to a seamless user experience.
+![Icons](/doc/features/04_01.jpg)
+![Icons](/doc/features/04_02.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Accessibility:** Focus on accessibility ensures that the application is usable by as many people as possible, including those who rely on assistive technologies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Footer Links:** A footer section with a link to the creator's GitHub profile and acknowledgment of the technologies used in building the application, such as React.
+![Icons](/doc/features/05.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+Follow these steps to set up Yamanote Melodies on your local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/<your-username>/yamanote-melodies.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd yamanote-melodies
+```
 
-## Learn More
+3. Install the required dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the application:
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After starting the application, it will be accessible at `http://localhost:3000` on your web browser.
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Explore the interactive map to learn about the Yamanote Line stations. Click on any station circle to play or stop the audio clip associated with that station. Enjoy the unique sounds and melodies that define each station on Tokyo's Yamanote Line.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! If you're interested in improving Yamanote Melodies, follow these steps to contribute:
 
-### Advanced Configuration
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some YourFeature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- Thanks to FontAwesome for the iconography.
+- React Bootstrap for responsive design elements.
+- All contributors and enthusiasts of Tokyo's Yamanote Line.
+- Audio tracks by [Fun Video, Youtube Channel](https://www.youtube.com/watch?v=-GF_dku3Mgo&t=134s&ab_channel=FunVideo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For detailed information on contributing to Yamanote Melodies, please refer to the `CONTRIBUTING.md` file.
+
+---
+
+Created with ❤️ by [Igor Dinuzzi](https://github.com/igordinuzzi)
