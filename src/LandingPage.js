@@ -67,7 +67,7 @@ const LandingPage = () => {
     <Container className="my-5 d-flex justify-content-center">
       <Row className="mb-5">
         <Col xs={4}>
-        <img src={`${process.env.PUBLIC_URL}/images/Logo/Logo.png`} alt="Logo" className="logo" />
+        <img src={`${process.env.PUBLIC_URL}/Images/Logo/Logo.png`} alt="Logo" className="logo" />
         </Col>
         <Col xs={4} className="d-flex justify-content-center">
           {/* Intentionally left blank for alignment */}
