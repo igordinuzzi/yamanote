@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yamanote-react/static/css/main.0bcee0ec.css",
-    "main.js": "/yamanote-react/static/js/main.1aab17e8.js",
+    "main.js": "/yamanote-react/static/js/main.2d3a10df.js",
     "static/js/592.3ec23a44.chunk.js": "/yamanote-react/static/js/592.3ec23a44.chunk.js",
     "index.html": "/yamanote-react/index.html",
     "main.0bcee0ec.css.map": "/yamanote-react/static/css/main.0bcee0ec.css.map",
-    "main.1aab17e8.js.map": "/yamanote-react/static/js/main.1aab17e8.js.map",
+    "main.2d3a10df.js.map": "/yamanote-react/static/js/main.2d3a10df.js.map",
     "592.3ec23a44.chunk.js.map": "/yamanote-react/static/js/592.3ec23a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bcee0ec.css",
-    "static/js/main.1aab17e8.js"
+    "static/js/main.2d3a10df.js"
   ]
 }
