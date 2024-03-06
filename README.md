@@ -5,6 +5,8 @@
 ## Description
 
 Yamanote Melodies is a React-based web application designed to take users on an auditory journey through Tokyo's Yamanote Line. This interactive experience allows users to explore the various stations on the Yamanote Line and listen to unique melodies or announcements associated with each station. The project leverages React Bootstrap for a responsive layout and FontAwesome for intuitive icons, creating a user-friendly and engaging interface.
+[Live](https://igordinuzzi.github.io/yamanote-react/)
+[Watch video](https://youtu.be/JLuP2ySG5ZM)
 
 ## Features
 
